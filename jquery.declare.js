@@ -2,6 +2,7 @@
  * jQuery Declare Plugin
  * Provides support for namespacing objects
  *
+ * Inspired by https://github.com/acatl/jquery.declare
  * @author Ryan Bales
  * @date 2012-05-20
  */
