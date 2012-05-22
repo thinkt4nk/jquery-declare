@@ -16,8 +16,9 @@
 	$.extend({
 
 		declare: function(name, obj) {
-			namespace_members = name.split(namespace_separator);
-			current_namespace = root;
+			var 
+				namespace_members = name.split(namespace_separator),
+				current_namespace = root;
 
 			$.each(namespace_members, function(i,member) {
 				current_namespace[member] = current_namespace[member] || {};
